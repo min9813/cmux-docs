@@ -1,5 +1,9 @@
 # cmux agent notes
 
+## FAQ policy
+
+When a user asks a question and you answer it, add the Q&A to `docs/faq/` as a markdown file. Follow the existing format: use `## Q:` headings, group related questions into a single file by topic, and write in the same language the user asked in. If an existing FAQ file already covers the question and the answer has not changed, do not update it. If an existing FAQ file covers the same topic but the answer has new information, update it instead of creating a new file.
+
 ## Initial setup
 
 Run the setup script to initialize submodules and build GhosttyKit:
